@@ -1,0 +1,384 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	text-align: center;
+}
+ul{
+	list-style-type: none;
+}
+
+
+
+.navbar .navbar-nav .nav-item{
+	padding-left: 55px;
+	font-size: 18px;
+}
+.navbar .navbar-brand img{
+	width: 50px;
+	height: 42px;
+}
+
+/*================================ SVG effects ================================*/
+
+
+#hair{
+	animation: hair 1s ease-in-out infinite alternate;
+	transform-origin: top;
+	transform-box:fill-box;
+}
+@keyframes hair{
+	from{
+		transform: translateX(0%);
+	}
+	to{
+		transform: translateX(-1.5%);
+	}
+}
+#bangs{
+	animation: bangs 1s ease-in-out infinite alternate;
+	transform-origin: top;
+	transform-box:fill-box;
+}
+@keyframes bangs{
+	from{
+		transform: translateY(2%);
+	}
+	to{
+		transform: translateY(-2%);
+	}
+}
+#Vector_15{
+	animation: rleaf 1s ease-in-out infinite alternate;
+	transform-origin: top;
+	transform-box:fill-box;
+}
+@keyframes rleaf{
+	from{
+		transform: translateX(10%);
+	}
+	to{
+		transform: translateY(-3%);
+	}
+}
+#Vector_16{
+	animation: lleaf 1s ease-in-out infinite alternate;
+	transform-origin: bottom;
+	transform-box:fill-box;
+}
+@keyframes lleaf{
+	from{
+		transform: translateX(5%);
+	}
+	to{
+		transform: translateX(-4%);
+	}
+}
+#circle1{
+	animation: circle1 1.2s ease-in-out infinite alternate;
+	transform-origin: top;
+	transform-box:fill-box;
+}
+@keyframes circle1{
+	from{
+		transform: translateY(0%);
+	}
+	to{
+		transform: translateY(30%);
+	}
+}
+#circle2{
+	animation: circle2 1.5s ease-in-out infinite alternate;
+	transform-origin: right;
+	transform-box:fill-box;
+}
+@keyframes circle2{
+	from{
+		transform: translateX(20%);
+	}
+	to{
+		transform: translateY(-10%);
+	}
+}
+#circle3{
+	animation: circle3 3.5s ease-in-out infinite alternate;
+	transform-origin: bottom;
+	transform-box:fill-box;
+}
+@keyframes circle3{
+	from{
+		transform: translateY(0%);
+	}
+	to{
+		transform: translateY(-100%);
+	}
+}
+#circle4{
+	animation: circle4 3s ease-in-out infinite alternate;
+	transform-origin: bottom;
+	transform-box:fill-box;
+}
+@keyframes circle4{
+	rom{
+		transform: translateX(0%);
+	}
+	to{
+		transform: translateX(50%);
+	}
+}
+#circle5{
+	animation: circle5 2s ease-in-out infinite alternate;
+	transform-origin: left;
+	transform-box:fill-box;
+}
+@keyframes circle5{
+	from{
+		transform: translateY(-30%);
+	}
+	to{
+		transform: translateX(10%);
+	}
+}
+#grey1{
+	animation: grey1 1.5s ease-in-out infinite alternate;
+	transform-origin: top;
+	transform-box:fill-box;
+}
+@keyframes grey1{
+	from{
+		transform: translateY(0%);
+	}
+	to{
+		transform: translateX(-15%);
+	}
+}
+#grey2{
+	animation: grey2 1.5s ease-in-out infinite alternate;
+	transform-origin: top;
+	transform-box:fill-box;
+}
+@keyframes grey2{
+	from{
+		transform: translateY(0%);
+	}
+	to{
+		transform: translateY(20%);
+	}
+}
+#grey3{
+	animation: grey3 2s ease-in-out infinite alternate;
+	transform-origin: top;
+	transform-box:fill-box;
+}
+@keyframes grey3{
+	from{
+		transform: translateY(-20%);
+	}
+	to{
+		transform: translateY(40%);
+	}
+}
+
+.site-banner .container .row{
+	padding-top: 80px;
+}
+.site-banner .container .row .site-title{
+	margin-top: 100px;
+}
+.site-banner .container .row .site-title h4{
+	margin-top: 30px;
+}
+.site-banner .container .row .site-title .btn{	
+	background: #15CDCB;
+	width: 170px;
+	height: 50px;
+	cursor: pointer;
+	font-size: 16px;
+	border: none;
+	color: white;
+	margin: 30px 0px 0px 30px;
+	border-radius: 10px;
+	margin-top: 30px;
+}
+
+
+/*=============================================== About ===============================================*/
+.about .container{
+	margin-top: 100px;
+	background: #E6E6E6;
+}
+.about .container .row .nsllimg img{
+	width: 250px;
+	height: 330px;
+}
+.about .container .row{
+	padding-bottom: 80px;
+}
+.about .container .row h2{
+	margin:80px 0px 0px 0px;
+}
+
+.about .container .row p{
+	margin-top: 50px;
+}
+
+/*=============================================== Work ===============================================*/
+.work .container{
+	padding-top: 100px;
+}
+.work .container .row img{
+	width: 370px;
+	height: 250px;
+}
+.work .container .row{
+	padding-bottom: 15px;
+}
+.work .container .titwork{
+	padding-bottom: 80px;
+}
+.abwork .container .row h2{
+	margin:80px 0px 0px 0px;
+}
+.work .container .bottomrow{
+	padding-top: -90px;
+}
+
+
+/*=============================================== services ===============================================*/
+.services .container{
+	padding-top: 0px;
+	padding-bottom: 50px;
+}
+.services .container .row img{
+	background: #15CDCB;
+	padding: 20px;
+	cursor: pointer;
+	border: none;
+	border-radius: 50px;
+	margin-bottom: 50px;
+}
+.services .container .row{
+	padding-bottom: 20px;
+}
+.services .container .titwork{
+	padding-bottom: 100px;
+}
+.services .container .row h2{
+	margin:80px 0px 0px 0px;
+}	
+
+
+/*=============================================== contact ===============================================*/
+
+.jumbotron{
+	border-radius: 0px;
+	margin: 0;
+	font-size: 20px;
+}
+.contact{
+	background: #111017;
+	color: #fff;
+}
+.wm{
+	font-size: 32px;
+	font-weight: 500;
+	margin-bottom: 50px;
+}
+
+.contact .container .row .wm::after{
+	content: "";
+	height: 3px;
+	width: 80px;
+	background: #15CDCB;
+	display: inline-block;
+	margin-left: 5%;
+	transform: translateY(-10px);
+}
+.contact .container .row{
+	padding-bottom: 15px;
+}
+input {
+  background-color: #111017;
+  width: 80%;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 35px;
+}
+
+textarea {
+  background-color: #111017;
+  width: 80%;
+  box-sizing: border-box;
+  height: 100px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 35px;
+}
+input:focus, textarea:focus, select:focus{
+        outline: none;
+        background-color: #111017;
+    }
+
+input, select, textarea{
+    color: #fff;
+}
+.contact .container .row .btn {
+    background: #15CDCB;
+    width: 140px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    color: white;
+    margin: 30px 0px 0px 30px;
+    border-radius: 10px;
+    margin-top: -10px;
+    margin-right: 400px;
+}
+.fa{
+	  padding: 20px;
+	  font-size: 25px;
+	  color: #fff;
+}
+.fa:hover{
+      color: #15CDCB;
+      text-decoration: none;
+}
+
+.biglogo img{
+	margin-top: 85px;
+	margin-bottom: 150px;
+	width: 270px;
+	height: 180px;
+}
+
+.contact .container .row h3{
+	font-size: 35px;
+	margin-bottom: 30px;
+}
+
+.cpr{
+	margin-top: 80px;
+	margin-bottom: -50px;
+	color:#aaa;
+	font-size: 14px;
+}
+.contact .container .row a:link {
+  color: #ccc;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+
+
+
+
+    @media (max-width: 900px){
+      .fa{
+        font-size: 20px;
+        padding: 10px;
+      }
